@@ -20,7 +20,5 @@
     <li>scikit-learn</li>
   </ul>
 
-  <p><em>Built for GitHub Pages</em></p>
-
 </body>
 </html>
