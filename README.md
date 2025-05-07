@@ -1,91 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Data Analytics with Python - Climate Change Twitter Dataset</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f5f7fa;
-      color: #333;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #1f77b4;
-      color: #fff;
-      padding: 20px 40px;
-      text-align: center;
-    }
-    main {
-      padding: 40px;
-      max-width: 1000px;
-      margin: auto;
-    }
-    h1 {
-      margin-bottom: 10px;
-    }
-    h2 {
-      color: #1f77b4;
-      margin-top: 40px;
-    }
-    ul {
-      background: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      list-style-type: square;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #1f77b4;
-      color: white;
-      margin-top: 40px;
-    }
-  </style>
+    <title>Climate Change Twitter Dataset Analysis</title>
 </head>
 <body>
 
-  <header>
-    <h1>📊 Data Analytics with Python</h1>
-    <p>Analysis of Climate Change Twitter Dataset</p>
-  </header>
+    <h1>Data Analytics with Python</h1>
+    <h2>Analysis of Climate Change Twitter Dataset</h2>
 
-  <main>
-    <section>
-      <h2>Overview</h2>
-      <p>This project involves exploratory and predictive analysis of a large Twitter dataset related to climate change discussions. The goal is to understand user sentiment, stance, and aggressiveness across geographic and temperature-based contexts.</p>
-    </section>
+    <p>This project uses Python to analyze a Twitter dataset related to climate change. The aim is to explore user sentiment, stance, temperature impact, and aggressiveness.</p>
 
-    <section>
-      <h2>Python Libraries Used</h2>
-      <ul>
-        <li><strong>pandas</strong> – for data manipulation and cleaning</li>
-        <li><strong>numpy</strong> – for numerical operations</li>
-        <li><strong>matplotlib</strong> – for basic plotting</li>
-        <li><strong>seaborn</strong> – for advanced statistical visualizations</li>
-        <li><strong>missingno</strong> – for visualizing missing data</li>
-        <li><strong>scikit-learn (sklearn)</strong> – for machine learning models and preprocessing</li>
-      </ul>
-    </section>
+    <h3>Python Libraries Used</h3>
+    <ul>
+        <li>pandas</li>
+        <li>numpy</li>
+        <li>matplotlib</li>
+        <li>seaborn</li>
+        <li>missingno</li>
+        <li>sklearn</li>
+    </ul>
 
-    <section>
-      <h2>Project Highlights</h2>
-      <ul>
-        <li>Sentiment analysis and stance classification</li>
-        <li>Correlation of sentiment with temperature data</li>
-        <li>Visual exploration using scatterplots, heatmaps, and boxplots</li>
-        <li>Predictive modeling of tweet aggressiveness using Random Forest and Decision Trees</li>
-        <li>Statistical testing (T-tests, ANOVA) for group differences</li>
-      </ul>
-    </section>
-  </main>
+    <h3>Project Highlights</h3>
+    <ul>
+        <li>Sentiment and stance classification</li>
+        <li>Analysis of temperature vs. sentiment</li>
+        <li>Visualizations: scatterplots, histograms, heatmaps</li>
+        <li>Handling missing data using missingno</li>
+        <li>Predictive modeling using Random Forest and Decision Tree</li>
+        <li>Statistical testing: T-test and ANOVA</li>
+    </ul>
 
-  <footer>
-    &copy; 2025 Climate Data Analytics · Built with Python
-  </footer>
+    <p><em>Built with Python · 2025</em></p>
 
 </body>
 </html>
